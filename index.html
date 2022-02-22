@@ -1,0 +1,108 @@
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <section>
+    <p></p>
+    <div class="field">
+      <div class="start">
+      </div>
+      <div class="info">
+      </div>
+      <br></br>
+      <button id="modiduo" class="btn">Duo</button>
+      <button id="modiquadra" class="btn">Quadra</button>
+
+      <div class="quadraGame1">
+        <img id="coinfrontQuadra" class="coinfront"/>
+        <img id="coinbackQuadra" class="coinback"/>
+        <button id="startbutton" class="btn1">Start</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Wetteinsatz</th>
+              <th>Kopf</th>
+              <th>Zahl</th>
+              <th></th>
+              <th>Einsatz</th>
+              <th>Gewinn/Verlust</th>
+            </tr>
+          </thead>
+          <tbody id="mensch">
+            <tr>
+              <td><input class="inputPlayerQuadra" id="inputPlayer1Quadra" placeholder="Spieler 1"></td>
+              <td><input type="radio" id="kopfPlayer1Quadra" name="auswahlKopfOderZahl1" value="kopf"></td>
+              <td><input type="radio" id="zahlPlayer1Quadra" name="auswahlKopfOderZahl1" value="zahl"></td>
+              <td><button class="btnPlayer" id="bntPlayer1QuadraSetzen">Setzen</button></td>
+              <td id="einsatzPlayer1Quadra"></td>
+              <td id="gewinnVerlustPlayer1Quadra"></td>
+            </tr>
+            <tr>
+              <td><input class="inputPlayerQuadra" id="inputPlayer2Quadra" placeholder="Spieler 2"></td>
+              <td><input type="radio" id="kopfPlayer2Quadra" name="auswahlKopfOderZahl2" value="kopf"></td>
+              <td><input type="radio" id="zahlPlayer2Quadra" name="auswahlKopfOderZahl2" value="zahl"></td>
+              <td><button class="btnPlayer" id="bntPlayer2QuadraSetzen">Setzen</button></td>
+              <td id="einsatzPlayer2Quadra"></td>
+              <td id="gewinnVerlustPlayer2Quadra"></td>
+            </tr>
+            <tr>
+              <td><input class="inputPlayerQuadra" id="inputPlayer3Quadra" placeholder="Spieler 3"></td>
+              <td><input type="radio" id="kopfPlayer3Quadra" name="auswahlKopfOderZahl3" value="kopf"></td>
+              <td><input type="radio" id="zahlPlayer3Quadra" name="auswahlKopfOderZahl3" value="zahl"></td>
+              <td><button class="btnPlayer" id="bntPlayer3QuadraSetzen">Setzen</button></td>
+              <td id="einsatzPlayer3Quadra"></td>
+              <td id="gewinnVerlustPlayer3Quadra"></td>
+            </tr>
+            <tr>
+              <td><input class="inputPlayerQuadra" id="inputPlayer4Quadra" placeholder="Spieler 4"></td>
+              <td><input type="radio" id="kopfPlayer4Quadra" name="auswahlKopfOderZahl4" value="kopf"></td>
+              <td><input type="radio" id="zahlPlayer4Quadra" name="auswahlKopfOderZahl4" value="zahl"></td>
+              <td><button class="btnPlayer" id="bntPlayer4QuadraSetzen">Setzen</button></td>
+              <td id="einsatzPlayer4Quadra"></td>
+              <td id="gewinnVerlustPlayer4Quadra"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="duoGame1">
+        <img id="coinfrontDuo" class="coinfront"/>
+        <img id="coinbackDuo" class="coinback"/>
+        <button id="startbutton" class="btn1">Start</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Wetteinsatz</th>
+              <th>Kopf</th>
+              <th>Zahl</th>
+              <th></th>
+              <th>Einsatz</th>
+              <th>Gewinn/Verlust</th>
+            </tr>
+          </thead>
+          <tbody id="mensch">
+            <tr>
+              <td><input class="inputPlayerDuo" id="inputPlayer1Duo" placeholder="Spieler 1"></td>
+              <td><input type="radio" id="kopfPlayer1Duo" name="auswahlKopfOderZahl1" value="kopf"></td>
+              <td><input type="radio" id="zahlPlayer1Duo" name="auswahlKopfOderZahl1" value="zahl"></td>
+              <td><button class="btnPlayer" id="bntPlayer1DuoSetzen">Setzen</button></td>
+              <td id="einsatzPlayer1Duo"></td>
+              <td id="gewinnVerlustPlayer1Duo"></td>
+            </tr>
+            <tr>
+              <td><input class="inputPlayerDuo" id="inputPlayer2Duo" placeholder="Spieler 2"></td>
+              <td><input type="radio" id="kopfPlayer2Duo" name="auswahlKopfOderZahl2" value="kopf"></td>
+              <td><input type="radio" id="zahlPlayer2Duo" name="auswahlKopfOderZahl2" value="zahl"></td>
+              <td><button class="btnPlayer" id="bntPlayer2DuoSetzen">Setzen</button></td>
+              <td id="einsatzPlayer2Duo"></td>
+              <td id="gewinnVerlustPlayer2Duo"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</body>
